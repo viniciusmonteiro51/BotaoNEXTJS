@@ -42,15 +42,16 @@ export default function Botao() {
                         <div>
                             <button
                                 className={styles.buttonbar1}
-                                onClick={(e) => setValor('Sim')}
+                                onClick={() => setValor('Sim')}
+                                
                             >
-                                Sim
+                                😄Sim
                             </button>
                             <button
                                 className={styles.buttonbar2}
-                                onClick={(e) => setValor('Não')}
+                                onClick={() => setValor('Não')}
                             >
-                                Não
+                                😢Não
                             </button>
                         </div>
                     </div>
